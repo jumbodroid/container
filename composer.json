@@ -1,0 +1,44 @@
+{
+  "name": "jumbodroid/container",
+  "description": "Container is a simple implementation of PSR-11 Container Interface in PHP",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "PHP", "PSR-11", "Container", "DI"
+  ],
+  "authors": [
+    {
+      "name": "Alois Odhiambo",
+      "email": "rayalois22@gmail.com",
+      "homepage": "https://github.com/rayalois22",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.2.5|^8.0",
+    "psr/container": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5|^9.3.3",
+    "mockery/mockery": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jumbodroid\\Container\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Jumbodroid\\Container\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "minimum-stability": "stable"
+}
